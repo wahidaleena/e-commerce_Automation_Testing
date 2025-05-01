@@ -1,0 +1,37 @@
+<suite name="MyTestNGSuite">
+
+	<listeners>
+		<listener class-name="retry.RetryListener" />
+		<listener class-name="extentReport.TestListener" />
+
+	</listeners>
+	<test  name="AllTests">
+		<groups>
+			<run>
+				<!-- <include name="Launch" />
+				<include name="Smoke" />
+				<include name="Negative" />
+				<include name="product tests" />
+				<include name="cart tests" />-->
+				<include name="checkout" />
+				<include name="signout" />
+				<!-- <include name="End" />-->
+				<include name="start"/>
+				<include name="stop"/>
+			</run>
+		</groups>
+		<classes>
+
+			 <class name="testClasses.CreateAccountPageTest" />
+			<class name="dataProvider.DataProviderClass" />
+			<class name="testClasses.LoginPageTest" />
+			<class name="testClasses.EditAccountPageTest" />
+			<class name="testClasses.ProductPageTest" />
+			<class name="testClasses.WishListPageTest" />
+			<class name="testClasses.ShoppingCartPageTest" />
+			<class name="testClasses.CheckoutPageTest" />
+			<class name="testClasses.SignOutTest" />
+
+		</classes>
+	</test>
+</suite> 

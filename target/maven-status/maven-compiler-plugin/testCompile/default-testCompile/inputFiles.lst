@@ -1,0 +1,14 @@
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/base/BaseClass.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/dataProvider/DataProviderClass.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/extentReport/ExtentManager.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/extentReport/TestListener.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/retry/RetryAnalyzer.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/retry/RetryListener.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/CheckoutPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/CreateAccountPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/EditAccountPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/LoginPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/ProductPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/ShoppingCartPageTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/SignOutTest.java
+/Users/aleena/eclipse-workspace/com.magento_e-commerce/src/test/java/testClasses/WishListPageTest.java

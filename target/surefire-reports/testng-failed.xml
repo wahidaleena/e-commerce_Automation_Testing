@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestNGSuite]" verbose="0">
+  <listeners>
+    <listener class-name="retry.RetryListener"/>
+    <listener class-name="extentReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="AllTests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="checkout"/>
+        <include name="signout"/>
+        <include name="start"/>
+        <include name="stop"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testClasses.CheckoutPageTest">
+        <methods>
+          <include name="verifyTheOrderIsPlacedSuccessfully"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testClasses.CheckoutPageTest -->
+    </classes>
+  </test> <!-- AllTests(failed) -->
+</suite> <!-- Failed suite [MyTestNGSuite] -->

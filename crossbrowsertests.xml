@@ -1,0 +1,29 @@
+
+<suite name="CrossBrowserSuite">
+ <!-- <test name="chromeTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="testClasses.WishListPageTest"/>
+      <class name="testClasses.CheckoutPageTest"/>
+      <class name="testClasses.ShoppingCartPageTest"/>
+      <class name="testClasses.LoginPageTest"/>
+      < <class name="testClasses.CreateAccountPageTest"/>
+      <class name="testClasses.SignOutTest"/>
+      <class name="testClasses.EditAccountPageTest"/>
+      <class name="testClasses.ProductPageTest"/>
+    </classes>
+  </test> -->
+  <test name="firefoxTest">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <!-- <class name="testClasses.WishListPageTest"/>
+      <class name="testClasses.CheckoutPageTest"/>
+      <class name="testClasses.ShoppingCartPageTest"/>-->
+      <class name="testClasses.LoginPageTest"/>
+      <!-- <class name="testClasses.CreateAccountPageTest"/>
+      <class name="testClasses.SignOutTest"/>
+      <class name="testClasses.EditAccountPageTest"/>
+      <class name="testClasses.ProductPageTest"/>-->
+    </classes>
+  </test> 
+</suite> 
