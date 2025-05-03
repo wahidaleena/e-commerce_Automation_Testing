@@ -22,7 +22,7 @@
 		</groups>
 		<classes>
 
-			 <class name="testClasses.CreateAccountPageTest" />
+			<class name="testClasses.CreateAccountPageTest" />
 			<class name="dataProvider.DataProviderClass" />
 			<class name="testClasses.LoginPageTest" />
 			<class name="testClasses.EditAccountPageTest" />

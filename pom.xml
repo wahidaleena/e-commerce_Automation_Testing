@@ -73,7 +73,7 @@
             <version>3.0.0-M7</version>
             <configuration>
                 <suiteXmlFiles>
-                    <file>testng_groups.xml</file>
+                    <suiteXmlFile>testng_groups.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
