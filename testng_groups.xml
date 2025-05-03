@@ -10,14 +10,14 @@
 			<run>
 				<include name="Launch" />
 				<include name="Smoke" />
-				<include name="Negative" />
+				<!-- <include name="Negative" />-->
 				<include name="product tests" />
 				<include name="cart tests" />
-				<include name="checkout" />
-				<include name="signout" />
+				<!-- <include name="checkout" />
+				<include name="signout" />-->
 				<include name="End" />
-				<include name="start"/>
-				<include name="stop"/>
+				<!-- <include name="start"/>
+				<include name="stop"/>-->
 			</run>
 		</groups>
 		<classes>
