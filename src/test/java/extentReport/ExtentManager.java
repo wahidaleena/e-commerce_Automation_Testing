@@ -10,7 +10,7 @@ public class ExtentManager {
     public static ExtentReports extent;
     public static Platform platform;
     private static String reportFileName = "ExtentReport.html";
-    private static String macPath = System.getProperty("user.home") + "/TestReport";
+    private static String macPath = System.getProperty("user.dir") + "/TestReport";
     private static String windowsPath = System.getProperty("user.dir") + "\\TestReport";
     private static String macReportFileLoc = macPath + "/" + reportFileName;
     private static String winReportFileLoc = windowsPath + "\\" + reportFileName;
