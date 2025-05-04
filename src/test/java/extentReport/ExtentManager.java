@@ -9,8 +9,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentManager {
     public static ExtentReports extent;
     public static Platform platform;
-    private static String reportFileName = "ExtentReports.html";
-    private static String macPath = System.getProperty("user.home") + "/eclipse-workspace/com.magento_e-commerce/TestReport";
+    private static String reportFileName = "ExtentReport.html";
+    private static String macPath = System.getProperty("user.home") + "/TestReport";
     private static String windowsPath = System.getProperty("user.dir") + "\\TestReport";
     private static String macReportFileLoc = macPath + "/" + reportFileName;
     private static String winReportFileLoc = windowsPath + "\\" + reportFileName;
